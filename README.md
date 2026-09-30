@@ -1,15 +1,13 @@
-<<<<<<< HEAD
 # Agentic AI-Based Multimodal Healthcare Assistant for Medical Image and Report Analysis
 
 **B.Tech Final-Year Capstone Project**  
-*An Educational and Clinical Decision-Support Multi-Agent System*
+*An Educational  Healthcare Desicion-Support Multi-Agent System*
 
 ---
 
 ## 1. Project Purpose & Overview
 
-The **Agentic AI-Based Multimodal Healthcare Assistant** is an educational and clinical decision-support platform that integrates medical image analysis (e.g., Chest X-rays, scans) and clinical document analysis (e.g., blood work, metabolic panels, pathology reports) using a collaborative multi-agent architecture.
-
+The **Agentic AI-Based Multimodal Healthcare Assistant**  is an educational healthcare decision-support platform that integrates medical image analysis, such as chest X-rays and scans, with clinical report analysis, such as laboratory and pathology reports, using a collaborative multi-agent architecture. The system is designed to assist users in understanding medical information and does not replace professional medical diagnosis or clinical judgment.
 ### Key Objectives:
 - **Decision Support, Not Replacement:** The system assists patients in understanding complex diagnostic parameters and helps clinicians prioritize cases through an automated 4-tier triage system. It explicitly **does NOT** replace qualified medical professionals and never presents AI deductions as confirmed medical diagnoses.
 - **Explainable Multi-Agent Workflow:** Replaces monolithic black-box prompting with 5 specialized AI agents whose timing, decisions, and data payloads can be inspected step-by-step.
@@ -75,12 +73,20 @@ User Request / Uploads
                     │
                     ▼
 ┌────────────────────────────────────────┐
-│        Risk / Triage Agent             │  <-- Classifies urgency into Tier 1 - Tier 4
-└────────────────────────────────────────┘      and attaches emergency warnings
+│        Risk / Triage Agent
+- Educational information organizer only, not a clinical triage tool
+- Classifies information urgency into Tier 1 - Tier 4 for learning purposes
+- Attaches educational disclaimer and recommends professional review
+- Does NOT provide diagnosis or emergency medical advice
+             │  
+   └────────────────────────────────────────┘   
                     │
                     ▼
 ┌────────────────────────────────────────┐
-│        Coordinator Agent               │  <-- Compiles final multimodal dossier
+│        Coordinator Agent              
+ │  Compiles final multimodal dossier from all agent outputs
+- Ensures every response includes Medical Safety Disclaimer
+- Produces Final Response Dossier
 └────────────────────────────────────────┘
                     │
                     ▼
@@ -304,7 +310,3 @@ python -m pytest tests/ -v
 > - It does **NOT** prescribe medications, establish dosages, or replace consultation with a qualified doctor.
 > - Always seek the advice of a licensed physician or other qualified health provider regarding any medical condition.
 
-=======
-# Agentic-Ai-Based-Multimodal-Healthcare-Assistant-For-Medical-Image-And-Report-Analysis-
-Agentic AI-based multimodal healthcare assistant for medical image and  report analysis.
->>>>>>> 2809b864ac8028164f8962833bddb5f157429857
