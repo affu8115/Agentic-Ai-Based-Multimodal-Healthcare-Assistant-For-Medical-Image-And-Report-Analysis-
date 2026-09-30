@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Agentic AI-Based Multimodal Healthcare Assistant for Medical Image and Report Analysis
 
 **B.Tech Final-Year Capstone Project**  
@@ -303,3 +304,7 @@ python -m pytest tests/ -v
 > - It does **NOT** prescribe medications, establish dosages, or replace consultation with a qualified doctor.
 > - Always seek the advice of a licensed physician or other qualified health provider regarding any medical condition.
 
+=======
+# Agentic-Ai-Based-Multimodal-Healthcare-Assistant-For-Medical-Image-And-Report-Analysis-
+Agentic AI-based multimodal healthcare assistant for medical image and  report analysis.
+>>>>>>> 2809b864ac8028164f8962833bddb5f157429857
